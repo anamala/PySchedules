@@ -24,7 +24,8 @@ soap_message_xml_template = """<?xml version='1.0' encoding='utf-8'?>
   </SOAP-ENV:Body>
   </SOAP-ENV:Envelope>"""
 
-url = 'http://webservices.schedulesdirect.tmsdatadirect.com/schedulesdirect/tvlistings/xtvdService'
+# url = 'http://webservices.schedulesdirect.tmsdatadirect.com/schedulesdirect/tvlistings/xtvdService'
+url = 'http://dd.schedulesdirect.org/schedulesdirect/tvlistings/xtvdService'
 realm = 'TMSWebServiceRealm'
 
 request_headers = { 'Accept-Encoding': 'gzip',
